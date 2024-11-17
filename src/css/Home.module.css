@@ -1,0 +1,46 @@
+@font-face {
+  font-family: 'Freesentation-9Black';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2404@1.0/Freesentation-9Black.woff2') format('woff2');
+  font-weight: 900;
+  font-style: normal;
+}
+.container{
+  font-family: 'Freesentation-9Black';
+   height: 600px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   padding: 20px; 
+}
+.container h1 {
+   color: white;
+   font-size: 30px; /* h1 요소의 글꼴 크기를 조정합니다. */
+   margin-bottom: 10px; /* h1 요소 아래에 10px의 여백을 추가합니다. */
+   opacity: 0; /* 처음에는 투명하게 설정하여 숨깁니다. */
+   animation: fadeIn 2.5s ease forwards; /* fadeIn 애니메이션을 적용합니다. */
+ }
+ .image{
+  position: absolute;
+  width:99%;
+  height: 630px;
+  left: 10px;
+  top:80px;
+  
+  z-index: -10;
+ }
+ 
+ .container h3 {
+   font-size: 25px; /* h3 요소의 글꼴 크기를 조정합니다. */
+   color:white; /* h3 요소의 글꼴 색상을 회색으로 지정합니다. */
+   opacity: 0; /* 처음에는 투명하게 설정하여 숨깁니다. */
+   animation: fadeIn 6.6s ease forwards; /* fadeIn 애니메이션을 적용합니다. */
+ }
+@keyframes fadeIn {
+   from {
+     opacity: 0; /* 시작 상태: 투명 */
+   }
+   to {
+     opacity: 1; /* 끝 상태: 불투명 */
+   }
+ }

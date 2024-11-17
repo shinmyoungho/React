@@ -1,0 +1,115 @@
+@font-face {
+   font-family: 'Freesentation-9Black';
+   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2404@1.0/Freesentation-9Black.woff2') format('woff2');
+   font-weight: 900;
+   font-style: normal;
+}
+.container{
+   font-family: 'Freesentation-9Black';
+   display: flex;
+   justify-content: center;
+   position:absolute;
+   gap:50px;
+   color: #101010;
+   border-radius: 30px;
+   box-shadow: 30px 30px 15px rgb(107, 106, 106);
+   border: 2px solid grey;
+   padding: 15px;
+   width: 80%;
+   height: 80%;
+   left:145px;
+   background-image: linear-gradient(#5f54a9 ,rgb(73, 73, 146) 5%,#5f54a9 15%,#3d337a 70%,rgb(233, 221, 221));
+}
+.container h1,h2,span{
+   color:white;
+}
+.container span{
+   font-size: larger;
+   margin-right: 5px;
+}
+.div3{
+   height: 600px;
+   
+}
+
+ .div3 table{
+   border:3px solid black;
+   margin :6px;
+   text-align: center;
+ }
+ .div3 th{
+   background-color:rgb(75, 57, 134);
+   color:white;
+   width: 70px;
+}
+.div3 tr,th,td{
+   border:2px solid black;
+   background-color: white;
+}
+.btn{
+   align-items: center;
+    background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+    border: 0;
+    border-radius: 8px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    display: flex;
+    font-family: 'Freesentation-9Black';
+    font-size: 18px;
+    justify-content: center;
+    line-height: 1em;
+    max-width: 100%;
+    min-width: 140px;
+    padding: 3px;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    cursor: pointer;
+    transition: all .3s;
+ }
+ 
+ .btn:active,
+ .btn:hover {
+    outline: 0;
+   }
+ .btn span{
+    background-color: rgb(5, 6, 45);
+    padding: 16px 24px;
+    border-radius: 6px;
+    width: 100%;
+    height: 100%;
+    transition: 300ms;
+ }
+ .btn:hover span{
+    background: none;
+ }
+ .btn:active{
+    transform: scale(0.9);
+ }
+ .pl{
+   width: 200px;
+   border: 1px solid #C4C4C4;
+   box-sizing: border-box;
+   border-radius: 10px;
+   padding: 12px 13px;
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 16px;
+ }
+ 
+ .pl:focus{
+   border: 1px solid #9B51E0;
+   box-sizing: border-box;
+   border-radius: 10px;
+   outline: 3px solid #F8E4FF;
+   border-radius: 10px;
+ }
+ .lt{
+   position:relative;
+   left:300px;
+ }

@@ -1,0 +1,30 @@
+@font-face {
+   font-family: 'Freesentation-9Black';
+   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2404@1.0/Freesentation-9Black.woff2') format('woff2');
+   font-weight: 900;
+   font-style: normal;
+}
+.container{
+   width: 600px;
+   height:800px;
+   position:fixed;
+   text-align: center;
+}
+.head{
+   width:600px;
+   background-color: rgb(203, 236, 127);
+
+}
+.note{
+   
+   width:595px;
+   height:700px;
+   font-size: 18px;
+  background-color: rgb(243, 240, 217);
+  resize: none;
+  color: black;
+  border: none;
+  border-bottom: 2px solid #0000007e;
+  outline: none;
+
+}

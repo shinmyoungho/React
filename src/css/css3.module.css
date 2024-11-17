@@ -1,0 +1,211 @@
+@font-face {
+   font-family: 'Freesentation-9Black';
+   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2404@1.0/Freesentation-9Black.woff2') format('woff2');
+   font-weight: 900;
+   font-style: normal;
+}
+.container{
+   font-family: 'Freesentation-9Black';
+   display: flex;
+   position: absolute;
+   color:white;
+   flex-direction: column;
+   justify-content: center;
+   background-image: linear-gradient(#5f54a9 1%,rgb(47, 47, 130),#5f54a9 15%,#3d337a 50%,white);
+   color: #101010;
+   border-radius: 30px;
+   padding: 15px;
+   gap:20px;
+   width:80%;
+   left:145px;
+   box-shadow: 30px 30px 15px rgb(107, 106, 106);
+   border: 2px solid grey;
+   
+}
+.dv{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color:white;
+}
+.div1{
+   height: 600px;
+   overflow: scroll;
+   background-color:grey;
+   border-radius:15px;
+   padding-right: 10px;
+}
+.div1 table{
+  margin:5px;
+   border-collapse:collapse;
+   width:4300px;
+}
+.div2 table{
+  margin:5px;
+   border-collapse:collapse;
+   width:4300px;
+}
+.div1 th{
+  position:sticky;
+  top:0;
+  background-color:rgb(75, 57, 134);
+  color:white;
+}
+.div1 td:hover{
+  background-color: gray;
+}
+.div2 td:hover{
+  background-color: gray;
+}
+.div2 th{
+  position:sticky;
+  top:0;
+  background-color:rgb(58, 40, 118);
+  color:white;
+}
+.div2{
+   height: 600px;
+   overflow: scroll;
+   background-color:grey;
+   border-radius:15px;
+   padding-right: 10px;
+}
+
+
+ .p1{
+   position:relative;
+   top:-15px;
+   background-color:white;
+   border : 1px solid black;
+   padding-left:10px;
+   padding-right: 10px;
+   border-radius:15px;
+ }
+ .p2{
+   position:relative;
+   top:-15px;
+   background-color:white;
+   border : 1px solid black;
+   padding-left:10px;
+   padding-right: 10px;
+   border-radius:15px;
+ }
+ .p3{
+   position:relative;
+   top:-15px;
+   background-color:white;
+   border : 1px solid black;
+   padding-left:10px;
+   padding-right: 10px;
+   border-radius:15px;
+ }
+ .div1::-webkit-scrollbar{
+   width: 15px;
+ }
+ .div1::-webkit-scrollbar-thumb{
+   background-color: #2f3542;
+   border-radius: 10px;
+ }
+ .div1::-webkit-scrollbar-track{
+   background-color: grey;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 5px white;
+ }
+ .div2::-webkit-scrollbar{
+   width: 15px;
+ }
+ .div2::-webkit-scrollbar-thumb{
+   background-color: #2f3542;
+   border-radius: 10px;
+ }
+ .div2::-webkit-scrollbar-track{
+    background-color: grey;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 5px white;
+ }
+ .div3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:white;  
+  
+ }
+ .div4{
+  color:white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+ .btn{
+  align-items: center;
+   background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+   border: 0;
+   border-radius: 8px;
+   box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+   box-sizing: border-box;
+   color: #FFFFFF;
+   display: flex;
+   font-family: 'Freesentation-9Black';
+   font-size: 18px;
+   justify-content: center;
+   line-height: 1em;
+   max-width: 100%;
+   min-width: 140px;
+   padding: 3px;
+   text-decoration: none;
+   user-select: none;
+   -webkit-user-select: none;
+   touch-action: manipulation;
+   white-space: nowrap;
+   cursor: pointer;
+   transition: all .3s;
+}
+
+.btn:active,
+.btn:hover {
+   outline: 0;
+  }
+.btn span{
+   background-color: rgb(5, 6, 45);
+   padding: 16px 24px;
+   border-radius: 6px;
+   width: 100%;
+   height: 100%;
+   transition: 300ms;
+}
+.btn:hover span{
+   background: none;
+}
+.btn:active{
+   transform: scale(0.9);
+}
+.place1{
+  position: relative;
+  left:800px;
+  top:150px;
+}
+.pl{
+  width: 200px;
+  border: 1px solid #C4C4C4;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 12px 13px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.pl:focus{
+  border: 1px solid #9B51E0;
+  box-sizing: border-box;
+  border-radius: 10px;
+  outline: 3px solid #F8E4FF;
+  border-radius: 10px;
+}
+.hh{
+  position: relative;
+  right:5px;
+}

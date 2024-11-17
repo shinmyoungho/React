@@ -1,0 +1,192 @@
+@font-face {
+   font-family: 'Freesentation-9Black';
+   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2404@1.0/Freesentation-9Black.woff2') format('woff2');
+   font-weight: 900;
+   font-style: normal;
+}
+
+.container{
+   
+   font-family: 'Freesentation-9Black';
+   font-style: normal;
+   display: flex;
+   justify-content: center;
+   gap:50px;
+   background-image: linear-gradient(rgb(30, 30, 75),#4b447c 15%,#3d337a 50%,white);
+   position: absolute;
+   color: rgb(29, 24, 24); 
+   border-radius: 30px;
+   padding: 15px;
+   width:80%;
+   left:145px;
+   box-shadow: 30px 30px 15px rgb(107, 106, 106);
+   border: 2px solid grey;
+}
+.div1{
+   position: relative;
+   left:-20px;
+   
+}
+.div2{
+   
+   height: 750px;
+   overflow: scroll;
+   padding-right:10px;
+   background-color: grey;
+   border-radius: 20px;
+   
+}
+.div2::-webkit-scrollbar{
+   width: 15px;
+}
+.div2::-webkit-scrollbar-thumb{
+   background-color: #444c5f;
+   border-radius: 10px;
+}
+.div2::-webkit-scrollbar-track{
+   background-color: rgb(178, 175, 175);
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 5px white;
+}
+.div3{
+   color: white;
+   border: 1px solid grey;
+   
+   height:240px;
+   border-radius: 20px;
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   padding: 0;
+   width:230px;
+   
+   
+}
+
+.div4{
+   color: white;
+   display:flex;
+   justify-content:center;
+   align-items: center;
+   flex-direction:column;
+   height:500px;
+}
+.div4 h3{
+   color:white;
+}
+.div4 input{
+  width: 300px;
+  height: 40px;
+  border: none;
+  outline: none;
+  caret-color: rgb(255, 81, 0);
+  background-color: rgb(255, 255, 255);
+  border-radius: 30px;
+  padding-left: 15px;
+  letter-spacing: 0.8px;
+  color: rgb(19, 19, 19);
+  font-size: 13.4px;
+  text-align: center;
+   
+}
+.InputContainer {
+   width: 380px;
+   height: 60px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background: linear-gradient(to bottom,rgb(196, 171, 246),rgb(255, 231, 231));
+   border-radius: 30px;
+   overflow: hidden;
+   cursor: pointer;
+   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.075);
+ }
+a{
+   color: #101010;
+}
+.btn{
+   align-items: center;
+   background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+   border: 0;
+   border-radius: 8px;
+   box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+   box-sizing: border-box;
+   color: #FFFFFF;
+   display: flex;
+   font-family: 'Freesentation-9Black';
+   font-size: 18px;
+   justify-content: center;
+   line-height: 1em;
+   max-width: 100%;
+   min-width: 140px;
+   padding: 3px;
+   text-decoration: none;
+   user-select: none;
+   -webkit-user-select: none;
+   touch-action: manipulation;
+   white-space: nowrap;
+   cursor: pointer;
+   transition: all .3s;
+}
+.btn:active,
+.btn:hover {
+   outline: 0;
+  }
+.btn span{
+   background-color: rgb(5, 6, 45);
+   padding: 16px 24px;
+   border-radius: 6px;
+   width: 100%;
+   height: 100%;
+   transition: 300ms;
+}
+.btn:hover span{
+   background: none;
+}
+.btn:active{
+   transform: scale(0.9);
+}
+
+.tr1{
+   position:sticky;
+   top:0;
+}
+
+.div2 table{
+   border-collapse: collapse;
+   border:3px solid black;
+   margin :10px;
+   text-align: center;
+}
+.div2 th{
+   background-color: rgb(58, 40, 118);
+   padding: 10px;
+   color:white;
+}
+.div2 tr,th,td{
+   font-size: 20px;
+   border:2px solid black;
+   background-color: rgb(235, 233, 233);
+   padding: 10px;
+}
+.div2 td:hover{
+   background-color: gray;
+}
+.lodinglt{
+   position: relative;
+   top:100px;
+   left:120px;
+}
+
+@keyframes hover1{
+   form{
+      transform:scale(1.0);
+   }
+   to{
+      transform: scale(1.1);
+   }
+}
+
+
+

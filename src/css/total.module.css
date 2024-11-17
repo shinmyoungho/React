@@ -1,0 +1,44 @@
+
+ .div3 table{
+   border-collapse: collapse;
+   
+   text-align: center;
+   animation: fadeIn  1.5s ease forwards;
+ }
+ .div3 th{
+   position: sticky;
+   color:white;
+   top:0;
+   background-color: rgb(60, 130, 62);
+ }
+ .div3 td:hover{
+   background-color: grey;
+ }
+ .InputContainer {
+   margin-top: 6px;
+   width: 380px;
+   height: 60px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background: linear-gradient(to bottom,rgb(68, 161, 54),rgb(255, 231, 231));
+   border-radius: 30px;
+   overflow: hidden;
+   cursor: pointer;
+   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.075);
+ }
+ .input1{
+   width: 300px;
+   height: 40px;
+   border: none;
+   outline: none;
+   caret-color: rgb(255, 81, 0);
+   background-color: rgb(255, 255, 255);
+   border-radius: 30px;
+   padding-left: 15px;
+   letter-spacing: 0.8px;
+   color: rgb(19, 19, 19);
+   font-size: 13.4px;
+   text-align: center;
+ }
+ 

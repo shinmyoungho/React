@@ -1,0 +1,226 @@
+@font-face {
+   font-family: 'Freesentation-9Black';
+   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2404@1.0/Freesentation-9Black.woff2') format('woff2');
+   font-weight: 900;
+   font-style: normal;
+}
+.container{
+   font-family: 'Freesentation-9Black';
+   display: flex;
+   flex-direction: column;
+   position:absolute;
+   width: 80%;
+   
+  justify-content: center;
+  gap:40px;
+  left:145px;
+  background-image: linear-gradient(rgb(30, 30, 75),#5f54a9 15%,#3d337a 50%,white);
+   color: #101010;
+   border-radius: 30px;
+   box-shadow: 30px 30px 15px rgb(107, 106, 106);
+   border: 2px solid grey;
+   padding: 15px;
+}
+.div1{
+  display: flex;
+  color:white;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  position: relative;
+   left:-20px;
+}
+.div3::-webkit-scrollbar{
+  width: 15px;
+}
+.div3::-webkit-scrollbar-thumb{
+  background-color: #2f3542;
+  border-radius: 10px;
+}
+.div3::-webkit-scrollbar-track{
+  background-color: grey;
+   border-radius: 10px;
+   box-shadow: inset 0px 0px 5px white;
+}
+.div2 table{
+  border-collapse: collapse;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+.div2 th{
+  background-color: rgb(58, 40, 118);
+  position: sticky;
+  color:white;
+  top:0;
+}
+.div2 td:hover{
+  background-color: grey;
+}
+.div3 td:hover{
+  background-color: grey;
+}
+.div3{
+  height: 500px;
+  overflow: scroll;
+  background-color:grey;
+   border-radius:15px;
+   padding-right: 10px;
+}
+.div3 table{
+  width:100%;
+  height: 100%;
+  border-collapse: collapse;
+  margin-left: 5px;
+  margin-top: 5px;
+  text-align: center;
+  animation: fadeIn  1.5s ease forwards;
+}
+.div3 th{
+  position: sticky;
+  color:white;
+  top:0;
+  background-color: rgb(58, 40, 118);
+}
+.div3 td{
+  animation: fadeIn  1.5s ease forwards;
+}
+.div3 .div2 h2,h4,p{
+   opacity: 0; /* 처음에는 투명하게 설정하여 숨깁니다. */
+   animation: fadeIn 2s ease forwards; /* fadeIn 애니메이션을 적용합니다. */
+}
+.p1{
+  position:relative;
+  top:-15px;
+  background-color:white;
+  border : 1px solid black;
+  padding-left:10px;
+  padding-right: 10px;
+  border-radius:15px;
+}
+.p2{
+  position:relative;
+  top:-15px;
+  background-color:white;
+  border : 1px solid black;
+  padding-top:20px;
+  padding-left:10px;
+  padding-right: 10px;
+  border-radius:15px;
+}
+.search{
+  color: rgb(244, 241, 241); 
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  flex-direction:column;
+  height:300px;
+}
+.search input{
+  
+  width: 300px;
+  height: 40px;
+  border: none;
+  outline: none;
+  caret-color: rgb(255, 81, 0);
+  background-color: rgb(255, 255, 255);
+  border-radius: 30px;
+  padding-left: 15px;
+  letter-spacing: 0.8px;
+  color: rgb(19, 19, 19);
+  font-size: 13.4px;
+  text-align: center;
+}
+.InputContainer {
+  margin-top: 6px;
+  width: 380px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to bottom,rgb(196, 171, 246),rgb(255, 231, 231));
+  border-radius: 30px;
+  overflow: hidden;
+  cursor: pointer;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.075);
+}
+.div2{
+  height: 400px;
+   overflow: scroll;
+   background-color: grey;
+   border-radius:15px;
+   padding-right: 10px;
+}
+.div2::-webkit-scrollbar{
+  width: 15px;
+}
+.div2::-webkit-scrollbar-thumb{
+  background-color: #2f3542;
+  border-radius: 10px;
+}
+.div2::-webkit-scrollbar-track{
+  background-color: grey;
+   border-radius: 10px;
+   box-shadow: inset 0px 0px 5px white;
+}
+.btn{
+  align-items: center;
+   background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+   border: 0;
+   border-radius: 8px;
+   box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+   box-sizing: border-box;
+   color: #FFFFFF;
+   display: flex;
+   font-family: 'Freesentation-9Black';
+   font-size: 18px;
+   justify-content: center;
+   line-height: 1em;
+   max-width: 100%;
+   min-width: 140px;
+   padding: 3px;
+   text-decoration: none;
+   user-select: none;
+   -webkit-user-select: none;
+   touch-action: manipulation;
+   white-space: nowrap;
+   cursor: pointer;
+   transition: all .3s;
+}
+
+.btn:active,
+.btn:hover {
+   outline: 0;
+  }
+.btn span{
+   background-color: rgb(5, 6, 45);
+   padding: 16px 24px;
+   border-radius: 6px;
+   width: 100%;
+   height: 100%;
+   transition: 300ms;
+}
+.btn:hover span{
+   background: none;
+}
+.btn:active{
+   transform: scale(0.9);
+}
+.lt1{
+  position: relative;
+  left:650px;
+  top:-90px;
+}
+
+
+@keyframes fadeIn {
+   from {
+     opacity: 0; /* 시작 상태: 투명 */
+   }
+   to {
+     opacity: 1; /* 끝 상태: 불투명 */
+   }
+ }
